@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="नमस्कार"
+        android:text="Namaskar"
         />
 
     <LinearLayout
@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:text="नाव:" />
+            android:text="Name" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:text="ईमेल:"/>
+            android:text="Email"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -51,7 +51,7 @@
         <TextView
             android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:text="पासवर्ड:"/>
+            android:text="Password"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -60,5 +60,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="लोगिन"/>
+        android:onClick="login"
+        android:text="Login"/>
 </LinearLayout>
